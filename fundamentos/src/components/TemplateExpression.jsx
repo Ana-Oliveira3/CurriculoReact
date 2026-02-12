@@ -37,7 +37,14 @@ const TemplateExpression = () => {
             ))}
         </ul>
 
-        <h4>Experiências:</h4>
+        <h4>Idiomas:</h4>
+        <ul>
+            {language.map((lang) => (
+                <li key={lang}>{lang} </li>
+            ))}
+        </ul>
+
+       <h4>Experiências:</h4>
         <ul>
             {projects.map((project) => (
                 <li key={project.name}>
@@ -46,14 +53,7 @@ const TemplateExpression = () => {
 
             ))}
         </ul>
-
-        <h4>Idiomas:</h4>
-        <ul>
-            {language.map((lang) => (
-                <li key={lang}>{lang} </li>
-            ))}
-        </ul>
-
+        
     </div>
   )
 }
