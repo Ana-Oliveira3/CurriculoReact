@@ -1,7 +1,7 @@
 //Atalho pra criar o projeto: rafce
 import './TemplateExpression.css'
 
-const language = ["Português", "Espanhol", "Libras (Língua Brasileira de Sinais)"];
+const language = ["Português (língua marterna)", "Libras (Língua Brasileira de Sinais)"];
 
 const data = {
     idade: 17,
