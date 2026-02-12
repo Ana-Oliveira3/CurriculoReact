@@ -1,7 +1,7 @@
 //Atalho pra criar o projeto: rafce
 import './TemplateExpression.css'
 
-const language = ["Português (língua marterna)", "Libras (Língua Brasileira de Sinais)"];
+const language = ["✔️ Português (língua marterna)", "✔️ Libras (Língua Brasileira de Sinais)"];
 
 const data = {
     idade: 17,
@@ -9,7 +9,7 @@ const data = {
 }
 
 //Array de strings
-const skills = ["Trabalho em equipe", "Proatividade", "Razoablidade"];
+const skills = ["✔️ Trabalho em equipe", "✔️ Proatividade", "✔️ Razoablidade"];
 
 const projects = [
     {name: "Tratadora equestre", tech: "ACT Horse (2 anos)"},
